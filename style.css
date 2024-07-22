@@ -1,0 +1,75 @@
+* {
+  overflow-x: hidden;
+}
+
+.logo-site {
+  width: 50px;
+  height: 40px;
+}
+
+.banner {
+  position: relative;
+  background: url('/img/bannerrrrrr.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  padding: 100px 0;
+}
+
+.banner-text {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  padding-left: 500px;
+  padding-top: 200px;
+ 
+}
+
+.card-img-top {
+  height: 350px;
+  
+}
+
+/*.banner h1 {
+  color: black;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 150px;
+  font-weight: bold;
+}
+
+.banner p {
+  color: black;
+  text-align: center;
+  margin-left: 280px;
+  margin-top: 10px;
+  font-weight: bold;
+}*/
+
+.servicos {
+  padding: 100px 0 100px;
+  background-color: grey;
+}
+
+.contatos {
+  background-color: green;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow: hidden;
+}
+
+
+
+footer {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+}
+
+footer a {
+  color: white;
+}
