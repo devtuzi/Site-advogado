@@ -5,8 +5,9 @@ body {
 }
 
 .logo-img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 10%;
 }
 .col-lg-3 col-md-6 {
   background: rgba(0, 0, 0, 0.5);
@@ -116,11 +117,18 @@ body {
   margin: 0 auto;
 }
 
+.img-whats {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: -20px;
+}
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 0;
   padding-bottom: 3px;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   position: relative;
   text-transform: uppercase;
