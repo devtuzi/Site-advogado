@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
   background-color: #ffffff;
+  
 }
 
 .logo-img {
@@ -298,10 +299,19 @@ a:focus {
   color: #000000;
 }
 
+.logo-deep {
+  border-radius: 5%;
+  padding-top: 30px;
+  margin: auto;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+}
 
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  background-color: #722f37;
+  background-image: url();
   background-size: cover;
   background-attachment: fixed;
 }
@@ -475,7 +485,7 @@ a:focus {
   border: none;
   background-color: #ffffff;
   outline: none;
-  color: #000000;
+  color: #722f37;
   margin-top: 25px;
   padding: 12px;
 }
@@ -586,12 +596,12 @@ a:focus {
   text-align: center;
 }
 
+
 .footer_section a {
   color: #292929;
 }
 
 /* end footer section*/
-/*# sourceMappingURL=style.css.map */
 
 
 .us_section, .info_section {
