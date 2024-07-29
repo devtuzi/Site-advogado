@@ -1,3 +1,5 @@
+//scroll suave
+
 const menuItems = document.querySelectorAll('.nav-item a');
 
 menuItems.forEach(item => {

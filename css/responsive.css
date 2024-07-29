@@ -57,7 +57,14 @@
     .slider_section .detail-box h1 {
         letter-spacing: .3rem;
     }
+    .logo-deep {
+        display: none;
+    }
+    .botao-wp {
+        display: none;
+    }
 }
+
 
 @media (max-width: 360px) {}
 
