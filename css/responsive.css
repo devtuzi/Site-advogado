@@ -25,6 +25,12 @@
 }
 
 @media (max-width: 768px) {
+    .cards {
+        grid-gap: 5px;
+      }
+      .star {
+        display: none;
+      }
     .contact_section .form_container {
         padding: 45px 0;
     }
