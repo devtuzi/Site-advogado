@@ -26,6 +26,8 @@
 
 @media (max-width: 768px) {
     .cards {
+        display: flex;
+        flex-direction: column;
         grid-gap: 5px;
       }
       .star {

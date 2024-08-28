@@ -644,16 +644,13 @@ a:focus {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   max-width: 980px;
-
   margin: 0 auto;
   grid-gap: 40px;
 }
 
 .card {
   background-color: white;
-
   display: flex;
   flex-direction: column;
   align-items: center;
