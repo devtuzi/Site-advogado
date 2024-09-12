@@ -30,9 +30,7 @@
         flex-direction: column;
         grid-gap: 5px;
       }
-      .star {
-        display: none;
-      }
+      
     .contact_section .form_container {
         padding: 45px 0;
     }

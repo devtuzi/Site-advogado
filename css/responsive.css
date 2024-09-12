@@ -5,8 +5,10 @@
 }
 
 @media (max-width: 992px) {
+
+
     .hero_area {
-        height: auto;
+        background-image: url('/images/advogado.png');
     }
 
     .custom_nav-container .nav_search-btn {
@@ -14,8 +16,12 @@
         margin-top: 10px;
     }
 
+   #botao-bem {
+    display: none;
+   }
+
     .slider_section {
-        padding-top: 45px;
+        padding-top: 300px;
         padding-bottom: 75px;
     }
 
@@ -25,6 +31,10 @@
 }
 
 @media (max-width: 768px) {
+    .hero_area {
+        background-image: url('/images/advogado.png');
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -74,9 +84,13 @@
 @media (max-width: 420px) {
     .slider_section .detail-box h1 {
         letter-spacing: .3rem;
-    }
+        }
     
     .botao-wp {
         display: none;
+    }
+
+    .slider_section {
+        padding-top: 150px;;
     }
 }
