@@ -352,9 +352,16 @@ a:focus {
   max-width: 100%;
 }
 
-.us_section .us_container .box .detail-box h5 {
+.img-box {
+  margin-bottom: 6px;
+}
+
+.us_section .us_container .box .detail-box h2 {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
 }
 
 .heathy_section {
@@ -371,6 +378,7 @@ a:focus {
 
 .heathy_section p {
   margin-top: 35px;
+  text-align: left;
 }
 
 .heathy_section .btn-box {
@@ -637,6 +645,7 @@ a:focus {
 }
 
 .clientes {
+  display: none;
   height: 100%;
   background-color: #f5f5f5;
 }
