@@ -5,8 +5,11 @@
 }
 
 @media (max-width: 992px) {
+
+
     .hero_area {
-        height: auto;
+        background-image: url('/images/advogado.png');
+        background-size: cover;
     }
 
     .custom_nav-container .nav_search-btn {
@@ -14,8 +17,12 @@
         margin-top: 10px;
     }
 
+   #botao-bem {
+    display: none;
+   }
+
     .slider_section {
-        padding-top: 45px;
+        padding-top: 300px;
         padding-bottom: 75px;
     }
 
@@ -25,6 +32,10 @@
 }
 
 @media (max-width: 768px) {
+    .hero_area {
+        background-image: url('/images/advogado.png');
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -74,9 +85,61 @@
 @media (max-width: 420px) {
     .slider_section .detail-box h1 {
         letter-spacing: .3rem;
-    }
+        }
     
     .botao-wp {
         display: none;
     }
+
+    .slider_section {
+        padding-top: 150px;;
+    }
+
+    .slider_section .detail-box {
+        margin-top: 50px; /* Move o conteúdo 20px para baixo */
+      }
 }
+
+@media (max-width: 400px) {
+    #title-text {
+      font-size: 1.5rem; /* Ajuste o tamanho do título */
+    }
+    
+    .slider_section h2 {
+      font-size: 1.2rem; /* Ajusta o tamanho do subtítulo */
+    }
+    
+    .slider_section h5 {
+      font-size: 1rem; /* Ajusta o tamanho do texto menor */
+    }
+
+    #botao-bem {
+      width: 250px; /* Reduz o tamanho do botão */
+      height: 60px;
+    }
+
+    .img-whats {
+      width: 20px; /* Reduz o tamanho do ícone do WhatsApp */
+    }
+
+  }
+
+
+#bancario-text {
+    max-width: 100%; /* O texto ocupará 90% da largura da tela em telas menores */
+    margin: 0 auto;
+  }
+
+  /* Para telas médias */
+  @media (min-width: 768px) {
+    #bancario-text {
+      max-width: 80%; /* Aumenta a largura para 80% da tela em dispositivos médios */
+    }
+  }
+
+  /* Para telas grandes */
+  @media (min-width: 1200px) {
+    #bancario-text {
+      max-width: 100%; /* O texto pode ocupar toda a largura disponível em telas maiores */
+    }
+  }
