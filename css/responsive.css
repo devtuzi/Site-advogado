@@ -78,7 +78,8 @@
 
 @media (max-width: 480px) {
     .logo-deep {
-        display: none;
+        width: 300px;
+        height: 450px;
     } 
     .hero_area {
         background-image: url('/images/advogado.png');
@@ -129,10 +130,9 @@
 
     .hero_area {
         background-image: url('/images/advogado.png');
-        background-size: 440px;
+        background-size: 555px;
         background-repeat: no-repeat; /* Para evitar que a imagem se repita */
-
-  }
+    }
 
 
 #bancario-text {

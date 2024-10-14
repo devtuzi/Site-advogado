@@ -80,6 +80,11 @@
     .logo-deep {
         display: none;
     } 
+    .hero_area {
+        background-image: url('/images/advogado.png');
+        background-size: 750px;
+        background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+    }
 }
 
 @media (max-width: 420px) {
@@ -102,11 +107,11 @@
 
 @media (max-width: 400px) {
     #title-text {
-      font-size: 1.5rem; /* Ajuste o tamanho do título */
+      font-size: 1.6rem; /* Ajuste o tamanho do título */
     }
     
     .slider_section h2 {
-      font-size: 1.2rem; /* Ajusta o tamanho do subtítulo */
+      font-size: 1.4rem !important; /* Ajusta o tamanho do subtítulo */
     }
     
     .slider_section h5 {
@@ -122,7 +127,11 @@
       width: 20px; /* Reduz o tamanho do ícone do WhatsApp */
     }
 
-  }
+    .hero_area {
+        background-image: url('/images/advogado.png');
+        background-size: 555px;
+        background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+    }
 
 
 #bancario-text {

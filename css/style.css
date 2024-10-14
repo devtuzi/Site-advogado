@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'bookman old' !important;
   color: #000000;
   background-color: #ffffff;
   
@@ -81,6 +81,16 @@ body {
 }
 
 /*header section*/
+
+.navbar-brand img {
+  height: 40px; 
+  border-radius: 10%;
+}
+
+.navbar-brand {
+  padding-left: 1px;
+}
+
 .hero_area {
   height: 100vh;
   display: -webkit-box;
@@ -300,8 +310,8 @@ a:focus {
   padding-top: 30px;
   margin: auto;
   align-items: center;
-  width: 400px;
-  height: 350px;
+  width: 300px;
+  height: 450px;
 }
 
 
@@ -405,7 +415,6 @@ a:focus {
   background-color: #ffffff;
   color: #000000;
 }
-
 
 
 .trainer_section .box {
